@@ -1,0 +1,20 @@
+{
+  "name": "splitpay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SplitPay — split any bill with friends in NIM or USDT, paid in one tap inside Nimiq Pay.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nimiq/mini-app-sdk": "0.2.5"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "6.4.6"
+  }
+}
